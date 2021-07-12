@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T13:54:20.328Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.8.3" etag="zNjI_RY0gOa55FhZ71jt" type="github"><diagram id="KJKzgGMaAQxUdQBlSOpe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-12T14:11:19.347Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="FTJ-9sdcV0AHZDF1aWzH" version="14.8.3" type="github">
+  <diagram id="KJKzgGMaAQxUdQBlSOpe" name="Page-1">
+    <mxGraphModel dx="796" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-1" value="LoggerFactory" style="swimlane;fontSize=20;swimlaneFillColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="516" y="220" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;__create_logger()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="270" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;get_logger()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="561" y="330" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-5" value="ModuleClass1" style="swimlane;fontSize=20;swimlaneFillColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="215" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;LoggerFactory.get_logger()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=20;" vertex="1" parent="9GgFMeoRHv9CgeYrSbRx-5">
+          <mxGeometry x="5" y="80" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-7" value="ModuleClass2" style="swimlane;fontSize=20;swimlaneFillColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="360" width="212.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-8" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;LoggerFactory.get_logger()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="440" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-9" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="296" y="280" as="sourcePoint" />
+            <mxPoint x="516" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgFMeoRHv9CgeYrSbRx-10" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="298" y="392" as="sourcePoint" />
+            <mxPoint x="518" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
